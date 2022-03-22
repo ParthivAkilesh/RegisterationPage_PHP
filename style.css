@@ -1,0 +1,80 @@
+.container {
+    min-height: 400px;
+    background: rgb(5, 5, 5);
+    border-radius: 5px;
+    margin: auto;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    text-align: center;
+    border: 5px solid #070707;
+    padding: 190px 20px;
+
+}
+
+h1 {text-align: center;}
+
+body {
+    background-color: rgb(105, 150, 248);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bttn{
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid rgb(44, 74, 243);
+    color: white;
+    outline: none;
+    transition: .6s ease;
+    font-style: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bttn:hover{
+    cursor: pointer;
+    background-color: rgb(44, 74, 243);
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 5px rgb(44, 74, 243), 0 0 10px rgb(44, 74, 243), 0 0 15px rgb(44, 74, 243);
+    font-weight: bold;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; 
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.butn{
+
+    padding: 10px;
+    width:60px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    }
+
+.butn {
+        position: absolute;
+        right: 0px;
+        border: 1px solid rgb(238, 239, 243);
+        padding: 10px;
+        }
+.butn:hover{
+            cursor: pointer;
+            background-color: rgb(243, 244, 250);
+            color: rgb(0, 0, 0);
+            box-shadow: 0 0 5px rgb(248, 248, 250), 0 0 10px rgb(244, 244, 247), 0 0 15px rgb(243, 244, 247);
+            font-weight: bold;
+}
+
+.box{
+    text-align: center;
+}
